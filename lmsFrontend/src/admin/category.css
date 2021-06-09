@@ -1,0 +1,39 @@
+/* .addcategory {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: gray !important;
+} */
+
+.addcategory button {
+  background: #6718a8;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.addcategory input {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.addcategory button:hover {
+  background: #8528d1;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+.catLink {
+  background: rgb(115, 126, 125);
+  font-weight: bold;
+  width: 50%;
+}
+
+.addcategory form {
+  background: transparent;
+}
+.catLink:hover {
+  background: rgb(78, 80, 80);
+}

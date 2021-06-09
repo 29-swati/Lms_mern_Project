@@ -1,0 +1,53 @@
+.drop-clicked {
+  display: none;
+}
+
+.drop-not {
+  display: flex;
+}
+
+.form-drop {
+  width: 100%;
+}
+
+.drop-h {
+  font-weight: bold !important;
+  color: rgb(212, 208, 208);
+}
+.drop-sublink:hover {
+  background-color: rgb(14, 212, 120);
+  color: black;
+}
+.drop-savebtn {
+  /* font-weight: bold; */
+  background-color: #28a745;
+}
+
+.drop-savebtn:hover {
+  background-color: #3fb85b;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+  transition: var(--transition);
+  visibility: hidden;
+  z-index: -1;
+}
+/* OPEN/CLOSE MODAL */
+.show-modal {
+  visibility: visible;
+  z-index: 10;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid rgb(133, 127, 127) !important;
+}

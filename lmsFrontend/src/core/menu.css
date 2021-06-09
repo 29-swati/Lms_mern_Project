@@ -1,0 +1,80 @@
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif, "Hind Vadodara", sans-serif;
+  font-size: 1.25rem !important;
+  background-color: #343a40;
+  height: 100vh;
+}
+
+.navbar-area {
+  height: auto;
+  width: 100%;
+  background-color: #343a40;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: violet; */
+}
+
+.img {
+  height: 8rem;
+  width: 15.2rem;
+  /* max-width: 100%;
+  height: auto; */
+  background-color: transparent;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+  background-color: transparent;
+}
+
+.nav-links li {
+  display: inline-block;
+  text-decoration: none !important;
+  margin: 0.05rem;
+  list-style: none;
+  font-weight: bold;
+  /* background-color: rgb(150, 40, 40); */
+  background-color: transparent;
+}
+
+.nav-links li Link:hover {
+  color: #6718a8;
+  background-color: turquoise;
+}
+
+.color {
+  margin: 0.09rem;
+}
+.color:hover {
+  color: #b033fa !important;
+}
+
+.navbar-area button {
+  background-color: #6718a8 !important;
+  font-weight: bold;
+  color: blue;
+}
+
+.login {
+  background-color: #6718a8;
+  font-weight: bold;
+  border-color: transparent !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 4rem;
+}
+.login:hover {
+  background-color: #b033fa;
+}
+
+@media only screen and (max-width: 1500px) {
+  body {
+    height: 100vh;
+    font-size: 1rem !important;
+  }
+}

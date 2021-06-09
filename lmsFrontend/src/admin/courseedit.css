@@ -1,0 +1,119 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-edit {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 70%;
+}
+
+.del-button {
+  background-color: rgb(219, 5, 5);
+  border: none;
+}
+.del-button:hover {
+  background-color: rgb(248, 53, 53);
+}
+
+.label-form {
+  color: rgb(197, 195, 195);
+  font-weight: bold;
+}
+
+.pdf-icon {
+  /* fill: rgb(255, 81, 0); */
+  /* fill: blueviolet; */
+  fill: rgb(179, 177, 177);
+}
+
+.save-btn {
+  width: 10%;
+  background-color: #6718a8;
+  border: none;
+  font-weight: bold;
+}
+
+.save-btn:hover {
+  background-color: #8121cf;
+}
+
+.button-a {
+  background-color: #6718a8;
+  border: none;
+}
+.button-a:hover {
+  background-color: #8121cf;
+}
+
+.div-material {
+  background-color: black;
+}
+
+.course-img {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.h4 {
+  background-color: #6718a8;
+}
+
+.homeLink {
+  background: rgb(115, 126, 125);
+  font-weight: bold;
+  /* width: 30%; */
+}
+
+.homeLink:hover {
+  background: rgb(78, 80, 80);
+}
+
+.tagclass .react-tagsinput {
+  margin: 0.85%;
+  padding: 1.5%;
+}
+.tagclass .react-tagsinput-tag {
+  background-color: #6718a8;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+.tagclass .react-tagsinput-input {
+  background-color: rgb(49, 48, 49);
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.tagclass .react-tagsinput-remove {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.tagclass .react-tagsinput-tag a::before {
+  content: " ×";
+}
+
+@media only screen and (max-width: 1500px) {
+  body {
+    height: 100vh;
+    font-size: 1rem !important;
+  }
+  .form-edit {
+    width: 100%;
+  }
+  h4 {
+    text-align: left;
+  }
+}

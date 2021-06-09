@@ -1,0 +1,59 @@
+.updatecourse {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  /* align-items: center; */
+}
+
+.updatecourse form {
+  width: 100%;
+}
+
+.updatecourse form input {
+}
+
+.updatecourse button {
+  background-color: #6718a8;
+  border: none;
+}
+
+.updatecourse button:hover {
+  background-color: #8a23df;
+  border: none;
+}
+
+.top-div {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-content: flex-start; */
+  /* margin: 2rem; */
+  background-color: #6718a8 !important;
+}
+
+.each-card {
+  /* flex: 1; */
+  background-color: #535050;
+  min-width: 300px;
+  max-width: 330px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+  -webkit-box-shadow: 0 0 5px 2px rgb(238, 231, 231);
+  -moz-box-shadow: 0 0 5px 2px rgb(100, 98, 98);
+  box-shadow: 0 0 5px 2px rgb(75, 62, 62);
+}
+
+.cocktails-center {
+  margin: 0 auto;
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .cocktails-center {
+    grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+  }
+}

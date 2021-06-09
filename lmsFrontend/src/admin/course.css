@@ -1,0 +1,88 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid rgb(133, 127, 127) !important;
+}
+
+input:disabled {
+  color: gray;
+}
+
+textarea:disabled {
+  color: gray;
+}
+
+label {
+  /* background: #6718a8; */
+  background: transparent;
+}
+.react-tagsinput {
+  margin: 1.5%;
+  padding: 1.5%;
+}
+.react-tagsinput-tag {
+  background-color: #6718a8;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+.react-tagsinput-input {
+  background-color: rgb(49, 48, 49);
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.react-tagsinput-remove {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.react-tagsinput-tag a::before {
+  content: " ×";
+}
+.h4 {
+  background-color: #6718a8;
+  width: 100%;
+  text-align: center;
+}
+
+.butn {
+  background-color: #6718a8;
+  border: transparent;
+  width: 40%;
+}
+.butn:hover {
+  background-color: #8623d6;
+}
+
+@media only screen and (max-width: 1500px) {
+  body {
+    height: 100vh;
+    font-size: 1rem !important;
+  }
+  form {
+    width: 100%;
+  }
+  h4 {
+    text-align: left;
+  }
+}
